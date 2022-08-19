@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#top {
+    background-image: url(../images/bg-hero-desktop.svg);
+    padding: 30px;
+}
+
+li, a, p, span {
+    font-size: 18px;
+}
+
+a {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    padding: 30px 0;
+    font-size: 28px;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+header a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+header a:hover {
+    color: #999;
+}
+
+header img {
+    margin-left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.first-section {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.first-1 {
+    padding: 0 20px;
+    flex: 50%;
+}
+
+.first-1 h1 {
+    text-align: left;
+    padding-bottom: 30px;
+    
+}
+
+.first-1 p {
+    padding-bottom: 30px;
+}
+
+.first-1 a {
+    text-decoration: none;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.first-1 a:hover {
+    background: hsl(322, 100%, 80%);
+}
+
+.first-2 {
+    justify-items: right;
+}
+
+.first-section img {
+    width: 500px;
+    height: auto;
+
+}
+
+
+.second-section {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #999;
+    margin-top: 100px;
+    gap: 1em;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    justify-items: center;
+    margin: 100px auto;
+    
+}
+
+img{
+    width: 270px;
+    height: auto;
+
+}
+
+.second-1 {
+    padding: 0 20px;
+    flex: 90%;
+}
+
+.third-section {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #999;    
+    gap: 1em;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    justify-items: center;
+    margin: 50px auto;
+
+}
+
+.fourth-section {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #999;
+    gap: 1em;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    justify-items: center;
+    margin: 50px auto;
+}
+
+.fourth-1 {
+    padding: 50px;
+}
+
+.fifth-section {
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px #999;    
+    width: 500px;
+    height: 150px;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+    position: absolute;
+    top: -30%;
+    left: 25%;
+}
+
+.fifth-section a {
+    text-decoration: none;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.fifth-section a:hover {
+    background: hsl(322, 100%, 80%);
+}
+
+.bottom-section {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap: 2em;
+    justify-content: center;
+    
+}
+
+.last {
+    background: hsl(192, 100%, 9%);
+    height: 400px;
+    position: relative;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+#icon {
+    width: 150px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%);
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+#list-1 {
+    flex-basis: 40%;
+    align-self: flex-end;
+}
+
+
+#list-2 {
+    flex-basis: 20%;
+    align-self: flex-end;
+    padding-bottom: 42px;
+}
+
+#list-3 {
+    flex-basis: 20%;
+    align-self: flex-end;
+    padding-bottom: 42px;
+}
+
+#social {
+    flex-basis: 15%;
+    align-self: center;
+    padding-top: 60px;
+}
+
+#social a:hover {
+    color: hsl(322, 100%, 66%);
+}
+
+ion-icon {
+    padding-right: 10px;
+}
+
+.bottom-section li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.bottom-section a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+
+.bottom-section li a:hover {
+    text-decoration: underline;
+}
+
+.bottom-section li img {
+    width: 10px;
+    height: 10px;
+    margin: 6px 2px 0 5px;
+}
+
+span {
+    text-align: right;
+    display: block;
+    color: white;
+    padding: 30px 0;
+}
+
+#list-1 li{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.first-2, .second-2, .third-1, .fourth-2 {
+    padding: 0 30px;
+}
